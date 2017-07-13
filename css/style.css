@@ -1,0 +1,62 @@
+*{
+  box-sizing: border-box;
+}
+
+body{
+  margin: 0 auto;
+  font-family: 'Merriweather',sans-serif;
+}
+
+img{
+  max-width: 100%;
+}
+
+form{
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: 50px;
+}
+
+input[type="search"]{
+  width:25%;
+  padding:15px 0 15px 15px;
+  border: 2px solid #ccc;
+  border-radius: 5px;
+  font-size: 1em;
+}
+
+input[type="search"]:focus{
+  width:45%;
+}
+
+.container{
+  margin-bottom: 50px;
+}
+
+ul{
+  list-style:none;
+  margin: 0 auto;
+	padding: 0;
+	max-width:1024px;
+	text-align: center;
+}
+
+ul li {
+	display: inline-block;
+	padding: 10px;
+	margin:10px;
+}
+
+
+
+@media (min-width: 769px) {
+  img {
+    width: 100%;
+  }
+}
+
+@media (min-width: 1024px) {
+  img {
+    width: 100%;
+  }
+}
